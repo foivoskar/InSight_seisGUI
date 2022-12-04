@@ -16,11 +16,16 @@ This repository contains:
 
 ## User guidelines
 
-Once all the package dependencies are satisfied, there is no need to install any additional package, just run the script with a python3 command
+Once all the package dependencies are satisfied, there is no need to install any additional package, just run the script with a python3 command:
 
 ```
 python3 InSight_datagui.py
 ```
+
+The graphical interface will open. Then, the following options are available:
+
+- On the left part of the window, there is a selection tool for event quality and frequency category. By selecting filtering the quality type and frequency family the filtered seismic catalog is generated in the window.
+- Select the event to download and process and push the button at the bottom of the event list. The data will be downloaded in a "DATA" directory, within your working directory in .mseed format. Raw, displacement, velocity and acceleration data will be downloaded.
 
 ## Citations and acknowledgements
 
