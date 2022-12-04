@@ -14,6 +14,14 @@ This repository contains:
 2. The ELYSE station dataless file. Citation: InSight MARS SEIS Data Service (2019). Use the link for the download and cite accordingly.
 3. The InSight_datagui.py script.
 
+## User guidelines
+
+Once all the package dependencies are satisfied, there is no need to install any additional package, just run the script with a python3 command
+
+```
+python3 InSight_datagui.py
+```
+
 ## Citations and acknowledgements
 
 The scripts of this repository download Mars InSight seismic data from IRIS. It is developped by Foivos Karakostas and the University of Maryland InSight group. Please acknowledge.
