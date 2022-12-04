@@ -27,6 +27,18 @@ The graphical interface will open. Then, the following options are available:
 - On the left part of the window, there is a selection tool for event quality and frequency category. By selecting filtering the quality type and frequency family the filtered seismic catalog is generated in the window.
 - Select the event to download and process and push the button at the bottom of the event list. The data will be downloaded in a "DATA" directory, within your working directory in .mseed format. Raw, displacement, velocity and acceleration data will be downloaded.
 
+Once the "Download and process" button is not anymore pushed, the data are downloaded and you can work with their visualisation.
+
+In order to select the correct frequency band for the seismogram, first generate the spectrogram for the raw, displacement, or acceleration data, by selecting the respective option button and pushing the button "Make spectrograms".
+
+Once the spectrograms are generated, you can save the figure by pushing the "Export figure" button. This button will export the exact figure that you see at the moment that you push the button in a directory named "Figures/Spectrograms".
+
+In order to visualise the seismograms you should define the low and high frequency for the filtering in the first two boxes of the bottom part of the window, as well as the minimum and maximum time, given in seconds after the origin time. Then you push the "Make seismograms" button to visualise the seismograms. As long as the "amplitude" selection is set to 0, the amplitude in the figure is taken automatically from the maximum amplitude of the waveforms. In order to set your own and eventually avoid the representation of glitches amplitude, write the absolut value of the minimum and maximum amplitude that you want to visualise, then push the "Make seismograms" button again.
+
+When you make new seismograms, the spectrograms are showing the minimum and maximum frequency, as well as the minimum and maximum time, with white dashed lines. You can use this feature to select correctly the event associated signal.
+
+When you have the desired figures, you can export both spectrograms and seismograms with the respective "Export figure buttons". The figures are saved in the "Figures/Spectrograms" and "Figures/Seismograms" directories respectively.
+
 ## Citations and acknowledgements
 
 The scripts of this repository download Mars InSight seismic data from IRIS. It is developped by Foivos Karakostas and the University of Maryland InSight group. Please acknowledge.
