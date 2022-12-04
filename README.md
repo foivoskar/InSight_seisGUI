@@ -41,7 +41,7 @@ When you have the desired figures, you can export both spectrograms and seismogr
 
 ### Screenshot
 
-![Alt text]("InSight_datagui_screenshot.png?raw=true "InSight seisGUI screenshot")
+![Alt text](/InSight_datagui_screenshot.png "InSight seisGUI screenshot")
 
 
 ## Citations and acknowledgements
