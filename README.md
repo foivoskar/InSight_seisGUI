@@ -39,6 +39,10 @@ When you make new seismograms, the spectrograms are showing the minimum and maxi
 
 When you have the desired figures, you can export both spectrograms and seismograms with the respective "Export figure buttons". The figures are saved in the "Figures/Spectrograms" and "Figures/Seismograms" directories respectively.
 
+### Screenshot
+
+
+
 ## Citations and acknowledgements
 
 The scripts of this repository download Mars InSight seismic data from IRIS. It is developped by Foivos Karakostas and the University of Maryland InSight group. Please acknowledge.
