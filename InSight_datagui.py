@@ -248,7 +248,8 @@ def eventdownload():
             from scipy import signal
             lenz = len(z)
             alp = 5e-2
-            window = signal.tukey(len(z), alpha = alp)
+            from scipy.signal import windows
+            window = windows.tukey(len(z), alpha=alp)
             z = z * window
             n = n * window
             e = e * window
